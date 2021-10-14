@@ -74,7 +74,7 @@ width=6
 depth=6
 
 #Create a tree, with width,depth, initial score, range of delta between child and parent score                           
-myTree = createTree("t", width,depth,1000,50)
+myTree = createTree("t", width,depth,1000,51)
 print ("NodeCount=" + str(myTree.nodeCount))
 
 #Uncomment to print tree
